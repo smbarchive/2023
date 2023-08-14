@@ -1,0 +1,35 @@
+---
+layout: group
+author: smb2023
+day: "Tuesday"
+subgroup: "IMMU"
+subgroup-long: "IMMU-1"
+title: "Viral dynamics and its applications"
+organizers: "Tin Phan, Ruian Ke, Ruy M. Ribiero, Alan S. Perelson"
+description: "The talks in this minisymposium address efforts to study viral dynamics of SARS-CoV-2 and other pathogens using clinical/experimental data, mathematical analyses, and computational approaches. The speakers in this session will demonstrate the construction and application of mathematical and computational models of viral dynamics to better elucidate understanding of various aspects of viral infection, such as the development of immunity, prevention, and treatment of diseases."
+room: "Student-Alumni Council Room (#2154)"
+code: "MS04"
+code2: "MS03"
+author1: "Tin Thien Phan"
+inst1: "Los Alamos National Laboratory"
+title1: "Feasibility of using dynamic models with virus-immune interactions to predict early viral rebound dynamics following HIV-1 antiretroviral therapy interruption"
+additional_authors1: "Jessica Conway (Department of Mathematics, The Pennsylvania State University), Ruy M. Ribeiro, Alan S. Perelson, Ruian Ke (Theoretical Biology and Biophysics, Los Alamos National Laboratory)"
+abstract1: "Most individuals living with HIV-1 experience rapid viral rebound once antiretroviral therapy stops; however, a small fraction retain viral remission for an extended duration. Understanding the factors that determine whether viral rebound is likely once treatment stops can enable the development of optimal treatment regime to potentially achieve a functional cure for HIV-1. We built upon the theoretical framework proposed by Conway and Perelson to construct dynamic models of virus-immune interaction to study factors that influence viral rebound dynamics. We evaluate these models using viral load data (up to one year) from 24 participants with diverse outcomes (9 post-treatment controllers and 15 non-controllers) post antiretroviral therapy interruption. The best performing model accurately captures the heterogeneity of viral rebound dynamics in a statistically robust manner. The model suggests that viral rebound dynamics is significantly influenced by the effector cell expansion rate, where post-treatment controllers and non-controllers can be distinguished based on how fast the effector cell population expands. Our results highlight the potential of using dynamic models incorporating virus-immune interactions to predict early viral rebound dynamics post antiretroviral therapy interruption."
+author2: "Ellie Mainou"
+inst2: "The Pennsylvania State University (Department of Biology)"
+title2: "Investigating alternative models of acute HIV infection"
+additional_authors2: "Ruy Ribeiro, Los Alamos National Laboratories; Jessica M. Conway, Department of Mathematics, The Pennsylvania State University"
+abstract2: "Understanding the dynamics to acute HIV infection may provide insights into the mechanisms of early viral control with potential implications for vaccine design. The standard viral dynamics model explains HIV viral dynamics during acute infection reasonably well. However, the model makes simplifying assumptions, neglecting some aspects of HIV. For example, in the standard model, target cells are infected by a single HIV virion. Yet, cellular multiplicity of infection (MOI) may have considerable effects in pathogenesis and viral evolution. Further when using the standard model, we take constant infected cell death rates, simplifying the dynamic immune responses. Here, we use four models—1) the standard viral dynamics model, 2) an alternate model incorporating cellular MOI, 3) a model assuming density-dependent death rate of infected cells and 4) a model combining (2) and (3)—to investigate acute infection dynamics in 43 people tested very early after HIV exposure. We find that all models explain the data, but different models describe differing features of the dynamics more accurately. For example, while the standard viral dynamics model may be the most parsimonious model, viral peaks are better explained by a model allowing for cellular MOI. These results suggest that heterogeneity in within-host viral dynamics cannot be captured by a single model. Thus depending on the aspect of interest, a corresponding model should be employed."
+author3: "Jonathan Cody"
+inst3: "Purdue University (Weldon School of Biomedical Engineering)"
+title3: "Potential for HIV viral control with IL-15 immunotherapy: Stability analysis of a mathematical model"
+additional_authors3: "Elsje Pienaar, Weldon School of Biomedical Engineering, Purdue University"
+abstract3: "Cytokines, the chemical messengers of the immune system, can be therapeutically applied to treat tumors and chronic viral infections. However, these cytokines can have multifaceted effects, both activating the immune response and triggering a suppressive regulation of that response. We studied the treatment ramifications of these effects using an ordinary differential equation model of interleukin-15 (IL-15) therapy of human immunodeficiency virus (HIV). Using parameter sets previously fitted to non-human primate data, we conducted numerical stability analysis based on a constant IL-15 effect control parameter. There was a moderate IL-15 effect which minimized viral load, but this was still above what would clinically be considered as safely controlling HIV. We next assessed how parameter changes altered the stability of the system, as an analog for combination therapy. It was found that IL-15 therapy in tandem with blockade of suppressive regulation yielded viral control in all parameter sets. These results highlight the need for a multi-drug approach for immune therapy of complex diseases."
+author4: "Baylor Fain"
+inst4: "Texas Christian University (Physics and Astronomy)"
+title4: "Deconstructing agent-based model parameters"
+additional_authors4: "Dr. Hana Dobrovolny"
+abstract4: "The parameters of agent-based models can be hard to estimate, whether the model parameters are probabilistic or deterministic.
+The work here focuses on in-host virology and presents a systematic way of mathematically categorizing individual-level interactions as they contribute to the probability of infection.
+This method is applicable even as the agent-based model becomes more complex, and results in a partitioning of the parameter space that can be generalized to other systems."
+---

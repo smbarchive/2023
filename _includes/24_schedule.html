@@ -1,0 +1,108 @@
+
+{% assign plenary_speakers = site.Plenary | sort: 'numbering' %}
+
+
+<h1 class="mb-3 text-left">Conference Schedule</h1>
+<p class="text-left">Times listed beside each block are the <strong>starting times</strong> for each activity.</p>
+
+<div class="table-responsive text-left" id="full-table">
+  <table class="table table-sm table-bordered table-hover text-left main-schedule-table">
+  <thead>
+    <tr>
+      <th style="width: 9%" class="default-cols time-header-cols" align="center"><strong>Time</strong></br></td>
+      <th style="width: 15%" class="default-cols time-header-cols" align="center"><strong>Day 1</strong></br>Monday (July 17)</td>
+      <th style="width: 15%" class="default-cols time-header-cols" align="center"><strong>Day 2</strong></br>Tuesday (July 18)</td>
+      <th style="width: 15%" class="default-cols time-header-cols" align="center"><strong>Day 3</strong></br>Wednesday (July 19)</td>
+      <th style="width: 15%" class="default-cols time-header-cols" align="center"><strong>Day 4</strong></br>Thursday (July 20)</td>
+      <th style="width: 15%" class="default-cols time-header-cols" align="center"><strong>Day 5</strong></br>Friday (July 21)</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+	  	<td class="awake"><strong>8:30am</strong></td>
+	  	<td class="default-cols"><a href="{{site.baseurl}}/opening-remarks"><strong>Opening & welcome</strong></a></td>
+	  	<td class="default-cols"><strong></strong></td>
+	  	<td class="default-cols"><strong></strong></td>
+	  	<td class="default-cols"><strong></strong></td>
+	  	<td class="default-cols"><strong></strong></td>
+    </tr>
+    <tr>
+	    <td class="awake"><strong>9:00am</strong></td>
+		<td class="default-cols plenaries"><a href="{{site.baseurl}}/plenary/plenary-1"><strong>Plenary 1</strong></br>{{plenary_speakers[0].speaker}}</a></td>
+		<td class="default-cols plenaries"><a href="{{site.baseurl}}/plenary/plenary-3"><strong>Plenary 3</strong></br>{{plenary_speakers[2].speaker}}</a></td>
+		<td class="default-cols plenaries"><a href="{{site.baseurl}}/plenary/plenary-5"><strong>Plenary 5</strong></br>{{plenary_speakers[4].speaker}}</a></td>
+		<td class="default-cols plenaries"><a href="{{site.baseurl}}/plenary/plenary-6"><strong>Plenary 6</strong></br>{{plenary_speakers[5].speaker}}</a></td>
+		<td rowspan="2" class="default-cols DEI"><a href="{{site.baseurl}}/DEI-session"><strong>DEI Session</strong></a></td>
+    </tr>
+    <tr>
+	    <td class="awake"><strong>10:00am</strong></td>
+		<td rowspan="2" class="default-cols" colspan="4"><strong>Break</strong> (30 minutes)</td>
+    </tr>
+    <tr>
+	    <td class="awake"><strong>10:15am</strong></td>
+		<td class="default-cols"><strong>Break</strong> (15 minutes)</td>
+    </tr>
+    <tr>
+	    <td class="awake"><strong>10:30am</strong></td>
+      	<td class="default-cols minisymposia"><a href="{{site.baseurl}}/MS01"><strong>Minisymposium 1 </strong></a></td>
+	    <td class="default-cols minisymposia"><a href="{{site.baseurl}}/MS03"><strong>Minisymposium 3 </strong></a></td>
+	    <td class="default-cols minisymposia"><a href="{{site.baseurl}}/MS05"><strong>Minisymposium 5 </strong></a></td>
+	    <td class="default-cols minisymposia"><a href="{{site.baseurl}}/MS06"><strong>Minisymposium 6 </strong></a></td>
+	    <td class="default-cols minisymposia"><a href="{{site.baseurl}}/MS08"><strong>Minisymposium 8 </strong></a></td>	    
+    </tr>
+    <tr>
+	    <td class="awake"><strong>12:30pm</strong></td>
+		<td class="default-cols"><strong><a href="{{site.baseurl}}/lunch">Buffet Lunch</a></strong> </br>or</br><strong><a href="{{site.baseurl}}/special-events.html#mentor-lunch">Mentor Lunch</a></td>
+		<td class="default-cols"><strong><a href="{{site.baseurl}}/lunch">Buffet Lunch</a></strong> </br>or</br><strong><a href="{{site.baseurl}}/special-events.html#BMB">Q&A with the BMB</a></strong></br>or</br><strong><a href="{{site.baseurl}}/special-events.html#diversity-lunch">Diversity Lunch</a></td>
+		<td class="default-cols"><strong><a href="{{site.baseurl}}/lunch">Buffet Lunch</a></strong></br>or</br><strong><a href="{{site.baseurl}}/special-events.html#NSF">NSF Math Biology</strong> (12:50pm)</a></strong></br>or</br><strong><a href="{{site.baseurl}}/special-events.html#NIAID">NIAID/SMB Workshop</strong> (1-5pm)</a></td>
+
+		<td class="default-cols"><strong><a href="{{site.baseurl}}/lunch">Buffet Lunch</a></strong></br>or</br><strong><a href="{{site.baseurl}}/special-events.html#AYMP">Academic Year Mentoring Program Group Lunch</a></strong></td>
+		<td class="default-cols"><strong></strong></td>
+    </tr>
+    <tr>
+	    <td class="awake"><strong>1:30pm</strong></td>
+		<td class="default-cols plenaries"><a href="{{site.baseurl}}/plenary/plenary-2"><strong>Plenary 2</strong></br>{{plenary_speakers[1].speaker}}</a></td>
+		<td class="default-cols plenaries"><a href="{{site.baseurl}}/plenary/plenary-4"><strong>Plenary 4</strong></br>{{plenary_speakers[3].speaker}}</a></td>
+	  	<td class="default-cols"><strong><a href="{{site.baseurl}}/general-assembly">SMB General Assembly & Award Ceremony</a></strong></td>
+		<td class="default-cols plenaries"><a href="{{site.baseurl}}/plenary/plenary-7"><strong>Plenary 7</strong></br>{{plenary_speakers[6].speaker}}</a></td>
+		<td rowspan="6" class="default-cols"><strong>Hocking Hills Hiking Trip (2-7pm)</strong></td>
+    </tr>
+    <tr>
+	    <td class="awake"><strong>2:30pm</strong></td>
+		<td class="default-cols contributeds"><a href="{{site.baseurl}}/CT01"><strong>Contributed talks 1</strong></a></td>
+		<td class="default-cols contributeds"><a href="{{site.baseurl}}/CT02"><strong>Contributed talks 2</strong></a></td>
+		<td rowspan="4" class="default-cols excursion"><a href="{{site.baseurl}}/excursions"><strong>Excursions</a></strong></br></br>or</br></br><strong><a href="{{site.baseurl}}/columbus-activities">Columbus Activities</a></strong></td>		
+		<td class="default-cols contributeds"><a href="{{site.baseurl}}/CT03"><strong>Contributed talks 3</strong></a></td>
+    </tr>
+    <tr>
+	    <td class="awake"><strong>3:30pm</strong></td>
+		<td class="default-cols" colspan="2"><strong>Break</strong> (30 minutes)</td>
+		<td class="default-cols" colspan="1"><strong>Break</strong> (30 minutes)</td>
+    </tr>
+    <tr>
+	    <td class="awake"><strong>4:00pm</strong></td>
+      	<td class="default-cols minisymposia"><a href="{{site.baseurl}}/MS02"><strong>Minisymposium 2 </strong></a></td>
+	    <td class="default-cols minisymposia"><a href="{{site.baseurl}}/MS04"><strong>Minisymposium 4 </strong></a></td>
+	    <td class="default-cols minisymposia"><a href="{{site.baseurl}}/MS07"><strong>Minisymposium 7 </strong></a></td>
+    </tr>
+    <tr>
+	    <td class="awake"><strong>6:00pm</strong></td>
+		<td class="default-cols posters"><a href="{{site.baseurl}}/PS01"><strong>Poster session 1</br>& reception</strong></br>(6-7:30pm)</a></td>
+	  	<td class="default-cols"><strong>Brewery Tour</strong></br>or</br><strong><a href="{{site.baseurl}}/special-events.html#sim-plus">Simulations Plus Workshop</a></td>
+		<td class="default-cols posters"><a href="{{site.baseurl}}/PS02"><strong>Poster session 2</br>& reception</strong></br>(6-7:30pm)</a></td>
+    </tr>
+    <tr>
+	    <td class="awake"><strong>7:00pm</strong></td>
+		<td class="default-cols"><strong></strong></td>
+	  	<td class="default-cols"><strong></strong></td>
+	  	<td class="default-cols"><strong><a href="{{site.baseurl}}/banquet">Banquet</strong></br>(7-8:30pm)</a></td>
+	  	<td class="default-cols"><strong></strong></td>
+    </tr>
+    
+    
+            
+  </tbody>
+</table>
+</div>
+
+

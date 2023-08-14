@@ -1,0 +1,13 @@
+---
+layout: group
+poster: "ONCO-08"
+day: "Thursday"
+permalink: /ONCO/PS02-ONCO-8.html
+code: "PS02"
+subgroup: "ONCO"
+author: "Khaphetsi Joseph Mahasa"
+inst: "National University of Lesotho"
+title: "CD8+ T cells against circulating tumor cells coated with platelets: Insights from a mathematical model"
+abstract: "Cancer metastasis accounts for many cancer-related deaths worldwide. Metastasis occurs when the primary tumor sheds cells into the blood and/ or lymphatic circulation, thereby becoming circulating tumor cells (CTCs) that transverse through the circulatory system, extravasate the circulation and establish a secondary distant tumor. CTCs transition through the blood system, which has a plethora of supportive and antitumoral immune cells, represents one of the major metastatic hurdles that are not yet fully deciphered. Upon their entry into the blood stream, CTCs interact with platelets which shield them from the recognition by immune cells, including natural killer cells and CD8+ T cells. Platelet binding to CTCs also enhances CTC arrest in the vascular endothelial walls and subsequent extravasation. On the other hand, activated circulating CD8+ T cells, are able to recognise and attack the arrested CTCs prior to their extravasation. Thus, understanding how the dynamic interactions between CTCs, platelets and CD8+ T cells eventually result in secondary metastatic tumor emergence is a key challenge. Here, through a simple mathematical model of ordinary differential equations, we provide our perspective on how CTCs mechanistically evade the CD8+ T cell cytotoxicity. To achieve this, we aim to (a) describe how the intrinsic growth of the primary tumor, and subsequent dissimination of CTCs, link to the secondary establishment of distant tumor cell population; (b) illustrate how the intravascular proliferation of arrested CTCs within the circulation contributes to the possibility of secondary metastasis; (c) describe possible mechanisms underlying the antitumoral activity of CD8+T cells in inhibiting metastatic potential of CTCs; (d) discuss how simple treatment scenarios can be employed to minimize a further spread of CTCs within the circulation, by focusing on the CTCs disseminated from the primary tumor, rather than the secondary metastatic tumor. Last, we also provide a comprehensive mathematical stability analyses to assess different treatment scenarios that can hamper CTCs survival and highlight the significant role of mathematical modeling in clinical oncology."
+additional_authors: "Rachid Ouifki (North-West University, Department of Mathematics and Applied Mathematics); Lisette de Pillis (Harvey Mudd College, Department of Mathematics); Amina Eladdadi (The College of Saint Rose, Department of Mathematics)"
+---

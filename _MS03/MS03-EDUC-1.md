@@ -1,0 +1,28 @@
+---
+layout: group
+author: smb2023
+day: "Tuesday"
+subgroup: "EDUC"
+subgroup-long: "EDUC-1"
+title: "Mathematical-biology education in a post-COVID world"
+organizers: "Stacey Smith?"
+description: "This minisymposium will bring together education experts to examine up-to-the-minute problems that showcase the usefulness and applicability of mathematical biology in education in a post-COVID world. Now that online and hybrid teaching are tools that can be easily integrated, how has the classroom changed? What are the challenges in teaching a cohort that is effectively missing high-school education? The audience is the mathematical biologist with an interest in education. This includes students, postdocs and professors, mathematicians interested in seeing biological applications and biologists who wish to see how mathematics can be used in teaching."
+room: "Interfaith Prayer and Reflection Room (#3020C)"
+code: "MS03"
+code2: "MS04"
+author1: "Glenn Ledder"
+inst1: "University of Nebraska-Lincoln (Mathematics)"
+title1: "Using NetLogo for Modeling of Virtual Worlds"
+additional_authors1: ""
+abstract1: "We learn modeling by creating models for physical settings. Whereas real world settings have confounding factors that make modeling difficult, virtual world settings are governed by a limited set of individual-based rules, an example being the zombie-vs-human games whose modeling has become a popular area for undergraduate research. In addition to virtual worlds based on human activities, we can also create in silico virtual worlds using agent-based models that can be conveniently implemented in NetLogo. Students watch a NetLogo simulation and use their observations to build a mechanistic model; an example of this is my BUGBOX-predator program, which implements C.S. Holling's forager experiment. Additional challenges occur when we want to study the effect of a parameter on a system. Standard NetLogo includes the BehaviorSpace facility, which automates the choice of experiments but not the data analysis. In this talk, we illustrate how to write NetLogo code that automates the data analysis as well as the choice of experiments."
+author2: "Dmitry Kondrashov"
+inst2: "University of Chicago (Biological Sciences Collegiate Division)"
+title2: "Comparison of assessment and teaching modalities for a quantitative biology course"
+additional_authors2: ""
+abstract2: "Teaching quantitative skills for biology majors presents a set of challenges, in particular related to the perceived relevance of the material to their own educational goals, as well as the confidence of students in their own efficacy in learning these skills. The course Introduction to Quantitative Modeling for Biology is integrated into the biological sciences curriculum at University of Chicago and serves around two hundred students every year. Over the past three years, the pandemic disruption has prompted changes both in mode of delivery and course assessments, as the course moved to remote learning for two years and then back to in-person instruction in spring of 2022. In particular, I abolished all timed exams, allowed students opportunities to revise and resubmit assignments, and introduced open-ended projects involving data analysis or modeling in lieu of final exams. I will report the results of pre- and post-course surveys of student perceptions and satisfaction of the course, as well as measures of their performance and learning. My general conclusions from this experience are that replacing timed exams with revisable assignments and projects a) does not seem to have a negative impact on student learning; b) increases student satisfaction and self-efficacy; and that student engagement appeared to diminish after an extended period of remote instruction."
+author3: "Stacey Smith?"
+inst3: "The University of Ottawa (Mathematics)"
+title3: "How getting cheaters to reflect on their actions turned my worst course into my best course"
+additional_authors3: ""
+abstract3: "I had a high cheating ratio in my Summer 2022 online course. At least 50% of the class used materials they should not have or consulted with other students. The chair and the dean were reluctant to prosecute, so I decided to switch tactics and use the carrot instead of the stick. I offered them the chance to admit what they're done wrong in exchange for potential extra marks. The results were outstanding: students who had failed and/or cheated stepped up in ways I had not expected. We can learn lessons from approaching this situation with kindness."
+---

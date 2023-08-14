@@ -1,0 +1,42 @@
+---
+layout: group
+author: smb2023
+day: "Monday"
+subgroup: "ONCO"
+subgroup-long: "ONCO-1"
+title: "Techniques and Methods in Modelling Cancer Treatment"
+organizers: "Kathleen Wilke, Gibin Powathil"
+description: "This mini-symposium aims to bring together speakers that will highlight advances in the various mathematical methods and techniques used in the study of cancer treatment. There are numerous aspects to consider in the biological response of a treated tumour within the human body. Here we will highlight many of these factors, and the diverse modelling approaches needed to describe and analyse the motivating complex system. Talks will be of a great interest to a wide range of participants due to the variety of topics such as radiation, targeted therapy, and immunotherapy, and due to the variety of modelling
+approaches and techniques such as ODES, Fractional-DEs, PDEs, PK-PD, multi scale, and systems modelling."
+room: "Ohio Staters Traditions Room (#2120)"
+code: "MS01"
+code2: "MS02"
+author1: "Jana Gevertz"
+inst1: "The College of New Jersey (Department of Mathematics & Statistics)"
+title1: "Guiding model-driven combination dose selection using multi-objective synergy optimization"
+additional_authors1: "Irina Kareva, EMD Serono"
+abstract1: "The biomedical community has long sought to identify synergistic drugs for which the combined effect is greater than additive. However, lack of consensus on the definition of additivity has complicated this goal, particularly because a combination classified as synergistic by one definition can be classified as antagonistic by another. In this talk, I introduce the Multi-Objective Optimization of Combination Synergy – Dose Selection (MOOCS-DS) method as a rigorous approach to bring clarity and consistency to selecting an optimally synergistic dose for a pre-selected drug combination. MOOCS-DS bridges the gap between efficacy-based additivity definitions focused on improving effectiveness and potency-based definitions focused on reducing toxicity. It does this by identifying the Pareto optimal doses, defined as the set of possible combination doses for which one synergy metric cannot be improved without compromising the other. I demonstrate the potential of this approach to guide dose and schedule selection using a model fit to pre-clinical data of the combination of the PD-1 checkpoint inhibitor pembrolizumab and the antiangiogenic drug bevacizumab on two lung cancer cell lines."
+author2: "Mohammad Zahid"
+inst2: "H. Lee Moffitt Cancer Center & Research Institute (Integrated Mathematical Oncology)"
+title2: "Fractionated Photoimmunotherapy to Stimulate an Anti-Tumor Immune Response"
+additional_authors2: "Matthew Waguespack; Bryan Q. Spring; Heiko Enderling"
+abstract2: "Introduction: Photodynamic therapy (PDT) is an anti-cancer therapy where a photosensitizer (e.g. verteporfin) is delivered to cells and then near-infrared light is used to kill the cells that have taken up the photosensitizer. Current PDT is applied locally but does not discriminate between cancer and non-cancer cells. Photoimmunotherapy (PIT) utilizes photosensitizers conjugated to antibodies targeted against cancer cells with the idea that this will lead to more targeted cancer killing and sparing of other cell types in the area. We aim to use preliminary in vitro measurements to inform a modeling investigation of how PIT may impact tumor-immune dynamics and inform methods of best utilizing PIT to promote an anti-cancer immune response.
+
+Materials and Methods: Dose response curves of tumor cells (OVCAR5 ovarian cancer cell line) and T-cells (murine T-cells) to PDT (verteporfin + 665 nm light), PIT (cetuximab-verteporfin + 665 nm light), and chemotherapy (cisplatin) were measured in order to measure relative tumor and T-cell viability. These results were used in conjunction with a mathematical model of tumor and immune effector cell interaction consisting of a system of coupled ordinary differential equations that combine logistic tumor growth, immune-mediated tumor cell kill, and immune exhaustion. This model yields a phase plane that separates all combinations of initial conditions into two basins of attraction corresponding with uncontrolled tumor and immune-mediated cancer control. The in vitro viability analyses were used as inputs to the math model to search for potential dosing regimes and treatment schedules that could lead to immune-mediated cancer control.
+
+Results and Discussion: The PDT and chemotherapy treatments showed typical sigmoidal dose response curves with both tumor and T-cell kill increasing with increasing dose. However, in the case of PIT with the cancer-cell targeted immunoconjugate, low intensity light doses (< 10 J/cm2) yielded an increase in T-cell numbers (i.e. immunostimulatory response) relative to the no-treatment control. We leveraged this immunostimulatory regime to simulate fractionated PIT dosing schedules that increase the number of immune effector cells and decreasing the number of tumor cells. Simulation results of tumor-immune dynamics with PIT delivered in 6 fractions of 1 J/cm2 each, where each PIT fraction stimulates T-cell growth, gradually moved the immune state of the system into the cancer control region of the phase plane. We further calculated the minimum number for fractions needed for tumor control for all initial conditions over the entire immunostimulatory dose range from 1-10 J/cm2. These results present hypotheses that can be tested with in vitro co-culture measurements in a feedback loop of experiment and modeling.
+
+Conclusions: Here we demonstrated a first application of a simple model of tumor-immune interaction with inputs of in vitro measurements of cell survival in order to motivate fractionated PIT using an immunostimulatory dose regime."
+author3: "Kira Pugh"
+inst3: "Swansea University (Mathematics)"
+title3: "In silico approaches to study the synergy of DDR inhibitor drugs"
+additional_authors3: "Gibin Powathil (Swansea University)"
+abstract3: "DNA damage occurs thousands of times per cell per day with the DNA damage response (DDR) pathway aiding detection and repair. Some of the pathways involved in the DDR can be exploited for anti-cancer treatments, whereby inhibitor drugs can be used to cause certain pathways to stop working, facilitating cancer growth inhibition and/or death. The ataxia-telangiectasia and Rad3-related (ATR) inhibitor ceralasertib and the poly (ADP-ribose) polymerase (PARP) inhibitor olaparib have shown synergistic activity, in vitro, in the FaDu ATM-KO cell line. Experimental data shows that when these drugs are combined, lower doses and shorter treatment times can induce greater toxicity in cancer cells than using either drug as a monotherapy.
+
+We have developed a biologically-motivated mathematical model including cell cycle-specific interactions for both olaparib and ceralasertib, implemented using both a deterministic ordinary differential equation (ODE) model and a stochastic agent-based model (ABM). We study the differences between using an ODE model that considers a homogenous population of cancer cells and using an ABM where the cell population is heterogeneous as each cell has its own characteristics."
+author4: "Kathleen Wilkie"
+inst4: "Toronto Metropolitan University (Mathematics)"
+title4: "Modelling Radiation Cancer Treatment with Ordinary and Fractional Differential Equations"
+additional_authors4: "Nicole Wilson, TMU; Corina S. Drapaca, Penn State; Heiko Enderling, Moffitt Cancer Center; Jimmy J. Caudell, Moffitt Cancer Center;"
+abstract4: "Fractional calculus has recently been applied to mathematical modelling of tumour growth, but it’s use introduces complexities that may not be warranted. Mathematical modelling with differential equations is a standard approach to study and predict treatment outcomes for population-level and patient-specific responses. Here we use patient data of radiation-treated tumours to discuss the benefits and limitations of introducing fractional derivatives into three standard models of tumour growth. The fractional derivative introduces a history-dependence into the growth function, which requires a continuous death-rate term for radiation treatment. This newly proposed radiation-induced death-rate term improves computational efficiency in both ordinary and fractional derivative models. This computational speed-up will benefit common simulation tasks such as model parameterization and the construction and running of virtual clinical trials."
+---

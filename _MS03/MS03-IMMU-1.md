@@ -1,0 +1,35 @@
+---
+layout: group
+author: smb2023
+day: "Tuesday"
+subgroup: "IMMU"
+subgroup-long: "IMMU-1"
+title: "Viral dynamics and its applications"
+organizers: "Tin Phan, Ruian Ke, Ruy M. Ribiero, Alan S. Perelson"
+description: "The talks in this minisymposium address efforts to study viral dynamics of SARS-CoV-2 and other pathogens using clinical/experimental data, mathematical analyses, and computational approaches. The speakers in this session will demonstrate the construction and application of mathematical and computational models of viral dynamics to better elucidate understanding of various aspects of viral infection, such as the development of immunity, prevention, and treatment of diseases."
+room: "Student-Alumni Council Room (#2154)"
+code: "MS03"
+code2: "MS04"
+author1: "Stanca Ciupe"
+inst1: "Virginia Tech (Mathematics)"
+title1: "Mathematical models of Usutu Viral Infection"
+additional_authors1: "Nora Breen; Yuganthi Liyanage; Nisha Duggal; Necibe Tuncer;"
+abstract1: "Usutu virus, an emerging zoonotic flavivirus that is maintained in the environment through an enzootic cycle involving mosquitoes and birds, is associated with decreased bird populations and occasional spillover to humans. To determine the relationship between Usutu virus kinetics and disease incidence we built a multiscale vector-borne disease mathematical model that connects individual bird infections with the probability of bird-to-mosquito transmission and disease incidence in the bird population. We parametrize the model using viral titer data from birds infected with different Usutu virus strains and bird-to-mosquito transmission probability data and use the results to make predictions on bird infection incidence. Lastly, we investigate the effect of data scarcity on predicted incidence and propose solutions for improving model accuracy."
+author2: "Elissa Schwartz"
+inst2: "Washington State University (Math/Biol Sci)"
+title2: "Equine Infectious Anemia Virus (EIAV) dynamics and applications to vaccine development"
+additional_authors2: "Stacey Smith?, University of Ottawa
+Tyler Meadows, Queen's University"
+abstract2: "Equine infectious anemia virus (EIAV) is a lentivirus similar to HIV that infects horses. Clinical and experimental studies demonstrating immune control of EIAV infection hold promise for efforts to produce an HIV vaccine. Antibody infusions of horses have been shown to block both wild-type and mutant virus infection, but the mutant sometimes escapes. Using these data, we develop a mathematical model that describes the interactions between antibodies and both wild-type and mutant virus populations, in the context of continual virus mutation. We then investigate the effects of repeated immunizations through antibody infusions on both the wild- type and mutant strains of the virus. The model is then extended to include cytotoxic T lymphocyte responses. Numerical analysis shows that stability of the biologically-relevant endemic equilibrium, characterized by coexistence of antibody and CTL responses, requires that the parameters promoting CTL responses need to be boosted over parameters promoting antibody production. This result may seem counterintuitive (in that a weaker antibody response is better) but can be understood in terms of a balance between CTL and antibody responses that is needed to permit existence of CTLs. Thus, an intervention such as a vaccine that is intended to control a persistent viral infection with both immune responses should moderate the antibody response to allow for stimulation of the CTL response. In sum, these results suggest a route forward to design vaccine strategies to control lentivirus infection."
+author3: "Wenjing Zhang"
+inst3: "Texas Tech University (Department of Mathematics and Statistics)"
+title3: "Detecting and Resetting Tipping Points to Create More HIV Post-treatment Controllers with Bifurcation and Sensitivity Analysis"
+additional_authors3: "Leif Ellingson, Department of Mathematics and Statistics, Texas Tech University"
+abstract3: "The existence of HIV post-treatment controllers (PTCs) gives a hope for HIV functional cure. Understanding the critical mechanisms determining PTCs represents a key step toward this goal. In this talk, we have studied these mechanisms by analyzing an established mathematical model for HIV viral dynamics. 
+In mathematical models, critical mechanisms are represented by parameters that affect the tipping points to induce qualitatively different dynamics and, in cases with multiple stability, the initial conditions of the system also play a role in determining the fate of the solution. As such, for the tipping points in parameter space, we developed and implemented a sensitivity analysis of the threshold conditions of the associated bifurcations to identify the critical mechanisms. Our results suggest that the infected cell death rate and the saturation parameter for cytotoxic T lymphocyte proliferation most significantly affect post-treatment control. For the case with multiple stability, in state space of initial conditions, we first investigated the saddle-type equilibrium point to identify its stable manifold, which delimits trapping regions associated to the high and low viral set points. The identified stable manifold serves as a guide for the loads of immune cells and HIV virus at the time of therapy termination to achieve post-treatment control."
+author4: "Jasmine A. F. Kreig"
+inst4: "Los Alamos National Laboratory (T6: Theoreticacl Biology and Biophysics)"
+title4: "Using an agent-based model to explore affinity maturation of B cells: a SARS-CoV-2 case study"
+additional_authors4: "Ruian Ke, Ruy Ribiero, Alan Perelson"
+abstract4: "Successive variants of concern of SARS-CoV-2 have demonstrated an increase in antigenic distance from the original strain. These variants of concern (VOC), with differing amounts of escape from pre-existing immunity, are causing concerns about continued protection gained from vaccination and prior infection. B cells, which are key players in the body’s humoral immune response, undergo a process called affinity maturation in which activated B cells produce antibodies with increased affinity for antigen with the goal of limiting antigen ability to infect more cells. As the antigen moves away from the initial strain, the ability of the body to cross-reactively neutralize the antigen decreases. We investigated this idea via an agent-based model (ABM) that simulates the humoral immune response to SARS-CoV-2. We represent B cells (naïve, plasma, memory), antibodies, and antigens (virus strain or vaccine) as agents. We focus on binding that occurs between receptors (B cells, antibodies) and epitopes (antigens), representing these proteins in Euclidean shape space. In addition to interactions among B cells and antigens, we simulate other cell processes such as division, mutation, and death. In this talk, we will present preliminary results from our ABM. We hope to use this model to inform vaccination strategies in the future, especially given the constantly changing nature of this virus."
+---

@@ -1,0 +1,22 @@
+---
+layout: plenary
+numbering: "05"
+time: "Wednesday, July 19"
+title: ""
+speaker: "Presentations from Paper Prize Winners"
+author-image: "assets/images/plenary/logo.png"
+prize-name: "Lee A. Segel Prize for Best Paper & Student Paper"
+prize-url: "https://www.smb.org/lee-a-segel-prize/"
+best-paper-title: "Targeting Cellular DNA Damage Responses in Cancer: An In Vitro-Calibrated Agent-Based Model Simulating Monolayer and Spheroid Treatment Responses to ATR-Inhibiting Drugs"
+best-paper-url: "https://link.springer.com/article/10.1007/s11538-021-00935-y"
+best-paper-authors: "Sara Hamis*, James Yates, Mark A. J. Chaplain, Gibin G. Powathil"
+best-paper-talk-title: "Bridging in vitro and in vivo research via mathematical modelling"
+best-paper-talk-abstract: "Translating quantitative information between in vitro and in vivo research remains a scientifically and financially challenging step in preclinical drug development. However, mathematical models and computational tools can be used to bridge the gap between in vitro and in vivo research. To exemplify this, I will present a case study in which we used a data-driven, agent-based modelling approach to simulate both monolayers and spheroids of LoVo cells subjected to an anti-cancer drug that targets cellular DNA damage responses. The agent-based model (ABM) used in this study is governed by a set of empirically observable rules. By adjusting only the rules when moving between monolayer and spheroid simulations, whilst keeping the fundamental mathematical model and parameters intact, the ABM was first parameterised by monolayer in vitro data and was thereafter used to simulate treatment responses in spheroids subjected to dynamic drug delivery. Spheroid simulations were subsequently compared to in vivo data from xenografts in mice. The spheroid simulations were able to capture the dynamics of in vivo tumour growth and drug-mediated regression for approximately 8 days post tumour injection. Beyond this case study, I will also highlight how ABMs can be used to elucidate and quantify biological processes in preclinical cancer research."
+best-student-paper-title: "Designing Drug Regimens that Mitigate Nonadherence"
+best-student-paper-url: "https://link.springer.com/article/10.1007/s11538-021-00976-3"
+best-student-paper-authors: "Elijah D. Counterman, Sean D. Lawley*"
+best-student-paper-talk-title: "Designing drug regimens that mitigate nonadherence"
+best-student-paper-talk-abstract: "Medication nonadherence is a well-known problem for pharmaceutical treatment of chronic diseases. Understanding how nonadherence affects treatment efficacy is made difficult by the ethics of clinical trials that force patients to skip medication doses, the unpredictable timing of missed doses by actual patients, and the many competing variables that can either mitigate or magnify the deleterious effects of nonadherence (pharmacokinetic and pharmacodynamic rates, dosing intervals, dose sizes, adherence rates, etc.). For these reasons, mathematical modeling is an important tool to combat nonadherence. In this talk, we use stochastic analysis to propose principles for designing drug regimens that are robust to nonadherence. In particular, we (1) answer practical questions for handling missed or late doses (skip the late dose? double the next dose?), (2) quantify the resiliency of extended release drugs to nonadherence, and (3) compare specific drugs in terms of how 'forgiving' they are to lapses in adherence. Mathematically, the models involve deterministic differential equations (describing pharmacokinetics and pharmacodynamics) subject to random input (describing patient nonadherence), and answering the questions above requires understanding how this stochastic forcing flows through the system."
+author-image: "assets/images/plenary/LawleySean.png"
+author-image-2: "assets/images/plenary/SaraHamis.png"
+---

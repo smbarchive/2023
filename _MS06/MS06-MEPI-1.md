@@ -1,0 +1,28 @@
+---
+layout: group
+author: smb2023
+day: "Thursday"
+subgroup: "MEPI"
+subgroup-long: "MEPI-1"
+title: "Recent advances in parameter identifiability of mathematical models in mathematical biology"
+organizers: "Omar Saucedo, Bren Case, Lauren Childs"
+description: "Parameter estimation is common practice when determining unknown parameters of a mathematical model. However, whether estimated parameters are reliable depends on the quantity and quality of available data, as well as the complexity of the model. Although models in mathematical biology tend to be highly nonlinear and can interact with data in unexpected ways, identifiability is rarely assessed prior to model fitting. Identifiability analysis comes in two flavors, the first focusing on whether there exists a unique set of parameters for all possible model output, and the second focusing the set of plausible parameters inferred from noisy data. Both approaches employ a range of geometric and statistical techniques. The goal of this mini-symposium is to bring in experts working throughout the immense field of mathematical biology to discuss the most recent advancements in identifiability."
+room: "Cartoon Room 1 (#3145)"
+code: "MS06"
+code2: "MS07"
+author1: "Widodo Samyono"
+inst1: "Jarvis Christian University (Mathematics and Sciences)"
+title1: "Parameters Identifiability for selecting the best model using differential equations optimization"
+additional_authors1: "N/A"
+abstract1: "Solving mathematical model based on differential equations (DEs) to match with the data by changing the initial guesses for identifying the parameters interactively by using trial and error methods is needed lots of efforts and time. Additionally, the model could be ill-posed and non-linear in term of the parameters, so specialized computational techniques are needed. To solve these problems, the parameter identification problems were set up as differential equations optimization, where the objective function is the misfit statistical measures between the data and the model solutions, and the constraint is the DE. The optimization can be formulated as constrained and unconstrained optimization. Some specialized numerical methods are presented. The models are the classical mathematical models for cancer cell growths."
+author2: "Marisa Eisenberg"
+inst2: "University of Michigan, Ann Arbor (Epidemiology and Complex Systems)"
+title2: "Identifiability and infectious disease interventions: exploring when uncertainty matters"
+additional_authors2: ""
+abstract2: "Identifiability, estimability, and parameter reduction methods provide tools to understand the interactions between parameters, model structure, and outputs—and how these interactions determine what inferences and predictions are possible for a given system. In particular, issues of identifiability and uncertainty can affect whether it is possible to select an optimal intervention—an important question for applied infectious disease modeling. In this talk, we will explore how identifiability can be used in practice to help inform epidemiological decision-making, and when intervention strategies are or are not robust to uncertainty in the model parameters and structure."
+author3: "All Participants"
+inst3: ""
+title3: "Open Forum"
+additional_authors3: ""
+abstract3: "The last 30 minutes of this session will include an open forum for discussion with speakers and participants."
+---

@@ -1,0 +1,17 @@
+---
+layout: group
+poster: "ECOP-08"
+day: "Monday"
+permalink: /ECOP/PS01-ECOP-8.html
+code: "PS01"
+subgroup: "ECOP"
+author: "Ryan St. Clair"
+inst: "Western Kentucky University (WKU)"
+title: "A Model for Population Persistence and Dispersal in Spatially Heterogeneous Environments"
+abstract: "Incorporation of spatial heterogeneity remains a major hurdle to modeling population dynamics in complex environments. Random-walk models are the foundation of many spatially explicit analyses of population growth and dispersal. The linearized eigenvalue problem of the reaction-diffusion equation yields results on short-term or asymptotic population dynamics, but has only been analyzed in patchy domains with at most two types of patches. 
+Our research develops a novel approach to finding solutions to the eigenvalue problem that allows for analysis of landscapes with any finite number of patches where each patch may have a unique type and at each interface between patches an interface condition reflecting organism behavior may be chosen independently. We determine an implicit relation which allows for analysis of the dependence of eigenvalue (population growth rate) and eigenfunction (population spatial distribution) solutions on patch parameters and interface conditions. The implicit relation is continuous on a bounded interval that contains the principal eigenvalue. A java program using Newton’s method was used to generate solutions to the eigenvalue problem.
+A set of simulations are shown for a simple landscape that illustrate how our model can be used to analyze population persistence, spatial distributions, and migration dynamics in spatially heterogeneous environments. We show that previously used interface conditions with different interpretations of organism behavior can simultaneously produce similar eigenvalues and significantly different population distributions. In the reaction diffusion model at extrema in the eigenfunction there is zero flux in population density, and our simulations show that the relative properties of source patches, the boundary conditions chosen, and the inclusion of matrix landscape can all affect whether source patches are separated by a minimum in population density. As a result, our simulations demonstrate that our model may be used to advance understanding of how patches act in concert to produce source-sink dynamics across a landscape or to produce alternate methods for classifying source and sink populations.
+Future work will examine how organism movement rates within patches affect population dynamics and how movement and foraging strategies affect population persistence and spread. The results of the eigenvalue problem may also be used in empirical studies as a reference model to interpret mark and recapture data. While the boundary conditions addressed in our work cover all symmetric periodic cases, our results also lay the foundation needed to address periodic landscapes that are asymmetric which are common in nature and relevant to processes of invasion. Our results will enable future analysis of population dynamics in landscapes that include spatially heterogeneous features such as ecotones, matrix landscape, corridors, and fragmented reserves with diverse interspersed human land-use areas.
+"
+additional_authors: "Dr. Richard Schugart, Department of Mathematics WKU; Dr. Andrew Nevai, Department of Mathematics UCF"
+---

@@ -1,0 +1,27 @@
+---
+layout: group
+author: smb2023
+day: "Monday"
+subgroup: "MFBM"
+subgroup-long: "MFBM-2"
+title: "Integration of data and modeling for multiscale biology"
+organizers: "Yuchi Qiu, Heyrim Cho"
+description: "Breakthroughs in biotechnology have enabled quantitative interrogation of biological mechanisms, and the resulting large-scale datasets present unique opportunities and challenges for understanding the spatial-temporal dynamics of biological systems. This mini-symposium aims to bring researchers together to discuss the latest advanced data-driven and multiscale modeling methodologies for complex biological systems that bridge gene, cellular, and tissue morphogenetic dynamics and their interactions. The topics will explore cutting-edge methodologies in artificial intelligence, optimal transport, dynamical systems, stochastic modeling, and more, emphasizing on cell and cancer biology. Researchers will have the opportunity to share their research findings and collaborate to gain a deeper understanding of the underlying mechanisms in cell fate decisions and cancer progression."
+room: "Griffin West Ballroom (#2133)"
+code: "MS01"
+author1: "Jianhua Xing"
+inst1: "University of Pittsburgh (Computational and Systems Biology)"
+title1: "Reconstructing cellular dynamics from single cell data"
+additional_authors1: ""
+abstract1: "A grand challenge in single cell studies is to construct a quantitative, predictive, and genome-wide mathematical model describing cellular dynamics. Single-cell (sc)RNA-seq, together with RNA velocity and metabolic labeling, reveals cellular states and transitions at unprecedented resolution. A frontier of research is how to extract dynamical information from the snapshot data. In this talk I will first discuss our recently developed dynamo framework (Qiu et al. Cell, 2022), focusing on the underlying mathematical framework. Then I will discuss our recent efforts of reconstructing full dynamical equations using discrete calculus on graphs (Zhang et al. to be submitted). I will conclude with an example of applying the formalism, together with transition path analyses originally developed in chemical physics, to study how epithelial-to-mesenchymal transition couples with cell cycle (Wang et al. Sci Adv 2020, eLife 2022, Hu et al., in preparation)."
+author2: "Aden Forrow"
+inst2: "University of Maine (Mathematics and Statistics)"
+title2: "Trajectory inference with lineage tracing"
+additional_authors2: ""
+abstract2: "Over the past decade, rapid advances in experimental techniques have produced a flood of data on biological systems at single cell resolution. A key goal for the field is to understand dynamic processes by inferring the trajectories of cell states over time. Time-dependent information typically cannot be recovered directly because standard high-throughput measurements destroy the measured cells. That experimental constraint leads to strict mathematical limits on what it is possible to learn from the data. To get around those limits, we need different measurements, such as recording the history of cell divisions with lineage tracing. In this talk, I will show how lineage tracing helps disentangle complex trajectories that could not be resolved from traditional single-cell data, including identifying disparate ancestry among nearly identical cells."
+author3: "Yuchi Qiu"
+inst3: "Michigan State University (Department of Mathematics)"
+title3: "Interpretable AIs in data-driven biology: from topological data analysis to multiscale modeling"
+additional_authors3: ""
+abstract3: "Artificial intelligence (AI) has become increasingly prominent in analyzing biological data on both large-scale and single-cell levels, leading to a revolution in deciphering functions and dynamics of complex biological systems. Despite its success, traditional black-box AIs often struggle to provide comprehensive understanding and interpretation of the multiscale processes in complex, heterogeneous, and noisy data. To address these challenges, we combine topological data analysis (TDA) and multiscale modeling to enhance AI interpretability. Our TDA-driven models capture the intricate patterns in complex data. Additionally, data-driven multiscale modeling infers temporal dynamics within biological systems. By incorporating these innovative techniques, we aim to accelerate protein design and understand cell fate dynamics from single-cell omics data, ultimately improving the applicability and interpretability of AI models in the analysis of complex biological data."
+---

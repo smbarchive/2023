@@ -1,0 +1,332 @@
+# Site
+title: 'SMB 2023'
+name: 'SMB 2023'
+description: 'The Society for Mathematical Biology - Annual Meeting 2023.'
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+baseurl: ''
+url:     "http://2023.smb.org/"
+
+customvar: 				 "custom"
+
+
+# Social Profiles
+twitter_username:  smb__2023
+
+
+# Build settings
+permalink: /:title/
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  
+# Paginate
+paginate: 10
+
+# Defaults
+defaults:
+
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      author: sal
+      avatar: /assets/images/avatar1.jpg
+      
+  # all abstracts
+  - scope:
+      path: "_abstracts"
+    values:
+      layout: post
+      
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+    
+  
+authors:
+    esmb:
+      name:           "SMB2023"
+      site:           http://2023.smb.org
+      avatar:         assets/images/logo.jpg
+      bio:            "Annual Meeting for the Society for Mathematical Biology, 2023."
+      twitter:        https://twitter.com/smb__2023
+      MS01:           "Monday, July 17 at 10:30am"
+      MS02:           "Monday, July 17 at 04:00pm"
+      MS03:           "Tuesday, July 18 at 10:30am"
+      MS04:           "Tuesday, July 18 at 04:00pm"
+      MS05:           "Wednesday, July 19 at 10:30am"
+      MS06:           "Thursday, July 20 at 10:30am"
+      MS07:           "Thursday, July 20 at 04:00pm"
+      MS08:           "Friday, July 21 at 10:30am"
+      CT01:			  "Monday, July 17 at 2:30pm"
+      CT02:			  "Tuesday, July 18 at 2:30pm"
+      CT03:			  "Thursday, July 20 at 2:30pm"
+      PS01:			  "Monday, July 17 at 6:00pm"
+      PS02:			  "Thursday, July 20 at 6:00pm"
+rooms:
+    CARD:			  "Brutus Buckeye Room"
+    CDEV:			  "Student-Alumni Council Room"
+    EDUC:			  "Suzanne M. Scharer Room"
+    IMMU:			  "Cartoon Room 1"
+    MEPI:			  "Interfaith Prayer and Reflection Room"
+    NEUR:			  "Barbie Tootle Room"
+    ONCO:			  "Cartoon Room 2"
+    MFBM:			  "Senate Chamber"
+    ECOP:			  "Ohio Staters Traditions Room"
+      
+    
+# Syntax
+markdown: kramdown
+highlighter: rouge 
+    
+    
+collections:
+  pages:
+    output: true
+    permalink: /:title
+  Recordings:
+  MS-Speakers:
+  CT-Speakers:
+  PS-Speakers:
+  Plenary:
+    output: true
+    permalink: /plenary/:title.html
+  SIAM:
+    output: true
+    permalink: /SIAM/:title.html
+  MMPB-CT:
+    output: true
+    permalink: /MMPB/:title.html
+  CARD-CT:
+    output: true
+    permalink: /CARD/:title.html 
+  CBBS-CT:
+    output: true
+    permalink: /CBBS/:title.html  
+  OTHE-CT:
+    output: true
+    permalink: /OTHE/:title.html
+  CDEV-CT:
+    output: true
+    permalink: /CDEV/:title.html  
+  DDMB-CT:
+    output: true
+    permalink: /DDMB/:title.html
+  ECOP-CT:
+    output: true
+    permalink: /ECOP/:title.html
+  EDUC-CT:
+    output: true
+    permalink: /EDUC/:title.html
+  EVOP-CT:
+    output: true
+    permalink: /EVOP/:title.html
+  IMMU-CT:
+    output: true
+    permalink: /IMMU/:title.html  
+  MEPI-CT:
+    output: true
+    permalink: /MEPI/:title.html  
+  MFBM-CT:
+    output: true
+    permalink: /MFBM/:title.html  
+  NEUR-CT:
+    output: true
+    permalink: /NEUR/:title.html  
+  ONCO-CT:
+    output: true
+    permalink: /ONCO/:title.html
+  POPD-CT:
+    output: true
+    permalink: /POPD/:title.html
+  MMPB-MS:
+    output: true
+    permalink: /MMPB/:title.html
+  CBBS-MS:
+    output: true
+    permalink: /CBBS/:title.html  
+  CARD-MS:
+    output: true
+    permalink: /CARD/:title.html  
+  CDEV-MS:
+    output: true
+    permalink: /CDEV/:title.html  
+  DDMB-MS:
+    output: true
+    permalink: /DDMB/:title.html
+  ECOP-MS:
+    output: true
+    permalink: /ECOP/:title.html
+  EDUC-MS:
+    output: true
+    permalink: /EDUC/:title.html
+  EVOP-MS:
+    output: true
+    permalink: /EVOP/:title.html
+  IMMU-MS:
+    output: true
+    permalink: /IMMU/:title.html  
+  MEPI-MS:
+    output: true
+    permalink: /MEPI/:title.html  
+  MFBM-MS:
+    output: true
+    permalink: /MFBM/:title.html  
+  NEUR-MS:
+    output: true
+    permalink: /NEUR/:title.html  
+  OTHE-MS:
+    output: true
+    permalink: /OTHE/:title.html
+  ONCO-MS:
+    output: true
+    permalink: /ONCO/:title.html
+  POPD-MS:
+    output: true
+    permalink: /POPD/:title.html
+  MS01:
+    output: true
+    permalink: /MS01/:title.html
+  MS02:
+    output: true
+    permalink: /MS02/:title.html
+  MS03:
+    output: true
+    permalink: /MS03/:title.html
+  MS04:
+    output: true
+    permalink: /MS04/:title.html
+  MS05:
+    output: true
+    permalink: /MS05/:title.html
+  MS06:
+    output: true
+    permalink: /MS06/:title.html
+  MS07:
+    output: true
+    permalink: /MS07/:title.html
+  MS08:
+    output: true
+    permalink: /MS08/:title.html
+  MS09:
+    output: true
+    permalink: /MS09/:title.html
+  MS10:
+    output: true
+    permalink: /MS10/:title.html
+  MS11:
+    output: true
+    permalink: /MS11/:title.html
+  MS12:
+    output: true
+    permalink: /MS12/:title.html
+  MS13:
+    output: true
+    permalink: /MS13/:title.html
+  MS14:
+    output: true
+    permalink: /MS14/:title.html
+  MS15:
+    output: true
+    permalink: /MS15/:title.html
+  MS16:
+    output: true
+    permalink: /MS16/:title.html
+  MS17:
+    output: true
+    permalink: /MS17/:title.html
+  MS18:
+    output: true
+    permalink: /MS18/:title.html
+  MS19:
+    output: true
+    permalink: /MS19/:title.html
+  MS20:
+    output: true
+    permalink: /MS20/:title.html
+  CT01:
+    output: true
+    permalink: /CT01/:title.html
+  CT02:
+    output: true
+    permalink: /CT02/:title.html
+  CT03:
+    output: true
+    permalink: /CT03/:title.html
+  CT04:
+    output: true
+    permalink: /CT04/:title.html
+  CT05:
+    output: true
+    permalink: /CT05/:title.html
+  CT06:
+    output: true
+    permalink: /CT06/:title.html
+  CT07:
+    output: true
+    permalink: /CT07/:title.html
+  CT08:
+    output: true
+    permalink: /CT08/:title.html
+  CT09:
+    output: true
+    permalink: /CT09/:title.html
+  PS01:
+    output: true
+    permalink: /PS01/:title.html
+  PS02:
+    output: true
+    permalink: /PS02/:title.html
+  PS03:
+    output: true
+    permalink: /PS03/:title.html
+  PS04:
+    output: true
+    permalink: /PS04/:title.html
+  PS05:
+    output: true
+    permalink: /PS05/:title.html
+  CDEV-PS:
+    output: true
+    permalink: /CDEV/:title.html  
+  EDUC-PS:
+    output: true
+    permalink: /EDUC/:title.html  
+  IMMU-PS:
+    output: true
+    permalink: /IMMU/:title.html  
+  MEPI-PS:
+    output: true
+    permalink: /MEPI/:title.html  
+  MFBM-PS:
+    output: true
+    permalink: /MFBM/:title.html  
+  NEUR-PS:
+    output: true
+    permalink: /NEUR/:title.html  
+  ONCO-PS:
+    output: true
+    permalink: /ONCO/:title.html  
+  OTHE-PS:
+    output: true
+    permalink: /OTHE/:title.html  
+  POPD-PS:
+    output: true
+    permalink: /POPD/:title.html  
+  CARD-PS:
+    output: true
+    permalink: /CARD/:title.html 
+  ECOP-PS:
+    output: true
+    permalink: /ECOP/:title.html
+  Presenters:
+    output: false
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+# exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]

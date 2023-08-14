@@ -1,0 +1,28 @@
+---
+layout: group
+author: smb2023
+day: "Monday"
+subgroup: "OTHE"
+subgroup-long: "OTHE-1"
+title: "The 10th anniversary of MBI’s 2013 Workshop for Young Researchers in Mathematical Biology"
+organizers: "Rebecca Everett, Angela Peace"
+description: "In 2013 MBI held a Workshop for Young Researchers in Mathematical Biology (WYRMB) to broaden the scientific perspective of young researchers and to encourage interactions with other scientists. As participants, this workshop impacted how we viewed the field and developed our careers in math-biology. We propose a mini-symposium to bring together participants from the 2013 WYRMB to celebrate the 10th anniversary by showcasing the current research of participants from the 2013 workshop and discussing how their research has grown over the past 10 years. In addition, participants will highlight the importance of these types of workshops and ways to support young researchers."
+room: "Student-Alumni Council Room (#2154)"
+code: "MS02"
+code2: "MS01"
+author1: "Ashlee N. Ford Versypt"
+inst1: "University at Buffalo, The State University of New York (Department of Chemical and Biological Engineering)"
+title1: "Multiscale Modeling of Tissue Remodeling and Damage"
+additional_authors1: ""
+abstract1: "Dr. Ford Versypt leads the Systems Biomedicine and Pharmaceutics research lab, which develops and uses multiscale systems engineering approaches including mathematical modeling and computational simulation to enhance understanding of the mechanisms governing tissue remodeling and damage as a result of diseases and infections and to simulate the treatment of those conditions to improve human health. The lab specializes in (a) modeling mass transport of biochemicals through heterogeneous porous materials—primarily extracellular matrices—that change morphology dynamically due to the influence of chemical reactions and (b) modeling dynamic, multi-species biological systems involving chemical, physical, and biological interactions of diverse, heterogeneous cell populations with these materials and the chemical species in tissue microenvironments. In this presentation, Dr. Ford Versypt will reflect on the trajectory of her research program through the last decade starting from modeling protein transport through degradable biomaterials for drug delivery and pharmaceutical manufacturing to focusing on pathophysiology of tissue damage and disease progression and pharmacokinetics/pharmacodynamics of treatments. This work is currently supported by an NSF CAREER award and NIH R35 MIRA grant."
+author2: "Angela Peace"
+inst2: "Texas Tech University (Department of Mathematics and Statistics)"
+title2: "Adaptive foraging behaviors in food web models"
+additional_authors2: ""
+abstract2: "Nutritional constraints are common as food resources are rarely optimally suited for grazing species. Elemental mismatches between trophic levels can influence population growth and foraging behaviors. Consumers utilize optimal foraging techniques, such as compensatory and complementary feeding strategies. Mathematical models developed under the framework of Ecological Stoichiometry can help shed light on population dynamics subject to stoichiometric constraints. I will give a brief overview of stoichiometric producer-grazer models and present some commonly used functional forms for incorporating stoichiometric constraints into trophic interactions. Model extensions explore adaptive grazer foraging behaviors in stoichiometrically explicit food webs."
+author3: "Open Discussion"
+inst3: ""
+title3: "Open Discussion: Best Practices for Workshops for Young Researchers"
+additional_authors3: ""
+abstract3: "Topics for this discussion will be about how best to organize a workshop for young researchers in mathematical biology. For example, what activities would be included in a schedule, how would students be recruited, and how would one best assess the success of such a workshop."
+---

@@ -1,0 +1,31 @@
+---
+layout: group
+author: smb2023
+day: "Tuesday"
+room: "Griffin East Ballroom (#2133)"
+code: "CT02"
+subgroup: "MEPI"
+subgroup-long: "MEPI-2"
+title: "MEPI Subgroup Contributed Talks"
+author1: "Chunyi Gai"
+inst1: "The University of British Columbia"
+title1: "Localized outbreaks in S-I-R model with diffusion"
+abstract1: "We investigate an SIRS epidemic model with spatial diffusion and nonlinear incidence rates. We show that for small diffusion rate of the infected class DI , the infected population tends to be highly localized at certain points inside the domain, forming K spikes. We then study three distinct destabilization mechanisms, as well as a transition from localized spikes to plateau solutions. Two of the instabilities are due to coarsening (spike death) and self-replication (spike birth), and have well-known analogues in other reaction-diffusion systems such as the Schnakenberg model. The third transition is when a single spike becomes unstable and moves to the boundary. This happens when the diffusion of the recovered class, DR becomes sufficiently small. In all cases, the stability thresholds are computed asymptotically and are verified by numerical experiments. We also show that the spike solution can transit into an plateau-type solution when the diffusion rates of recovered and susceptible class are sufficiently small. Implications for disease spread and control through quarantine are discussed."
+additional_authors1: "David Iron (Dalhousie University); Theodore Kolokolnikov (Dalhousie University)"
+author2: "Keoni Castellano"
+inst2: "University of Nevada, Las Vegas"
+title2: "Dynamics of classical solutions of a multi-strain diffusive epidemic model"
+abstract2: "We study a diffusive epidemic model and examine the spatial spreading dynamics of a multi-strain infectious disease. In particular, we address the questions of competition-exclusion or coexistence of the disease's strains. Our results indicate that if one strain has its local reproduction function spatially homogeneous, which either strictly minimizes or maximizes the basic reproduction numbers, then the phenomenon of competition-exclusion occurs. However, if all the local reproduction functions are spatially heterogeneous, all strains may coexist. In this case, we provide complete information on the large time behavior of classical solutions for the two-strain model when the diffusion rate is uniform within the population and the ratio of the local transmission rates is constant. Particularly, we prove the existence of two critical superimposed functions that serve as threshold values for the ratio of the transmission rates and that of the recovery rates. Furthermore, when the populations' diffusion rates are small, our results on the asymptotic profiles of coexistence endemic equilibria indicate a spatial segregation of infected populations."
+additional_authors2: "Rachidi Salako"
+author3: "Laura F. Strube"
+inst3: "Virginia Tech"
+title3: "Appearance of Multistability and Hydra Effect in a Discrete-Time Epidemic Model with Ricker Growth"
+abstract3: "One-dimensional discrete-time population models, such as Logistic or Ricker growth, can exhibit periodic and chaotic dynamics. Incorporating epidemiological interactions through the addition of an infectious class causes an interesting complexity of new behaviors. Previous work showed that infection that abrogates fecundity can lead to unexpected increases in total population size, a phenomenon known as the ‘hydra effect.’ Here, we examine a two-dimensional susceptible-infectious (SI) model with underlying Ricker population growth and show that the disease-free system has a distinct bifurcation structure from the system with infection. We use numerical bifurcation analysis to determine the influence of infection on the types and appearance of qualitatively distinct long-time dynamics. We find that disease-induced mortality leads to the appearance of multistability, such as stable four-cycles and chaos dependent upon the initial condition. In addition, we examine the appearance and extent of the hydra effect, particularly when infection is introduced during cyclic or chaotic population dynamics.
+"
+additional_authors3: "Shoshana Elgart; Lauren M. Childs"
+author4: "Neda Jalali"
+inst4: "University of Notre Dame"
+title4: "Impact of the interaction among DENV, ZIKV, and CHIKV on disease dynamics"
+abstract4: "Aedes aegypti and Aedes albopictus mosquitoes are the causative agents of dengue (DENV), chikungunya (CHIKV), and Zika (ZIKV) virus infections in humans. The co-circulation of at least two viruses/serotypes, which is common in countries worldwide, such as Columbia and Brazil in Latin America, can cause potential interactions among the viruses/serotypes and misdiagnosis in the lack of adequate laboratory tests due to similar clinical symptoms among their disease courses. We generalized a deterministic compartmental model to analyze how each disease dynamics changes under the potential antagonistic or synergistic interaction among the viruses/serotypes. Our simulation studies showed that under no DENV vaccine, vector control, and interaction among the viruses/serotypes, the peak of the incidence rates for people with no prior infections happens earlier than those cases with one or two prior infections, mostly because the proportion of fully susceptible people is larger than people with at least one prior infection. We observed higher incidence rates for single/multi infections and an earlier peak of the epidemics for single infections when a prior infection by a virus such as ZIKA causes synergistic cross-immunity against CHIKV and DENV serotypes, compared to the situation when it causes antagonistic cross-immunity. Identification of the cross-immunity is not possible when susceptibility statuses of the population are unknown because the high/low incidence rates could be either the results of high/low baseline transmission rates or antagonistic/synergistic interaction effects among the viruses."
+additional_authors4: "Alex Perkins, Department of Biological Science, University of Notre Dame"
+---
